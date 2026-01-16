@@ -17,6 +17,8 @@ import {
  * Colors: Deep Obsidian (#0F0F0F), Slate, Electric Blue/Cyan accents.
  */
 
+const WAITLIST_URL = "https://docs.google.com/forms/d/e/1FAIpQLSeXhvpFoSYMARz9ZKq8a5U6a_h5HhC427aX-eg6ZR3BHB-SmQ/viewform?usp=header";
+
 const Header: React.FC = () => (
   <header className="fixed top-0 left-0 w-full z-50 glass border-b border-white/5 py-4 px-6 md:px-12">
     <div className="max-w-7xl mx-auto flex justify-between items-center">
@@ -35,7 +37,7 @@ const Section1Hero: React.FC = () => (
 
     <div className="max-w-5xl mx-auto text-center z-10">
       <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-blue-500/10 border border-blue-500/20 text-blue-400 text-sm font-medium mb-6 animate-pulse">
-        <Zap size={14} /> Bridging the Licensing Gap between Music Labels & content Creators.
+        <Zap size={14} /> Bridging the Licensing Gap between Music Labels & Content Creators.
       </div>
       
       <h1 className="text-4xl md:text-7xl font-bold text-white mb-6 leading-tight tracking-tight">
@@ -57,13 +59,13 @@ const Section1Hero: React.FC = () => (
           <div className="w-10 h-10 rounded-lg bg-pink-600/10 flex items-center justify-center text-pink-500">
             <Instagram size={24} />
           </div>
-          <span className="font-medium">No Audie blocks on Instagram.</span>
+          <span className="font-medium">No Audio blocks on Instagram.</span>
         </div>
       </div>
 
       <div className="flex flex-col items-center gap-4">
         <button 
-          onClick={() => window.open('#', '_blank')}
+          onClick={() => window.open(WAITLIST_URL, '_blank')}
           className="group relative px-8 py-4 bg-white text-black font-bold rounded-xl flex items-center gap-2 transition-all hover:scale-105 active:scale-95 shadow-[0_0_20px_rgba(255,255,255,0.2)]"
         >
           Join Waitlist
@@ -130,7 +132,7 @@ const Section4Solution: React.FC = () => (
         Content creator & Instagram brands buy a song license for a small on-time fee, our system automatically clears copyright claims on their video - eliminating the risk of copyright strikes or unmuting the original audio, thus enabling monetization on the video.
       </p>
       <div className="inline-block px-6 py-4 rounded-2xl bg-white/5 border border-white/10 text-cyan-400 font-medium tracking-wide">
-        Note - Think it like a <span className="text-white">“Fastag Toll”</span> for content creators & Instagram brands.
+        Note - Think it like a <span className="text-white">“NoBroker”</span> for content creators & Instagram brands.
       </div>
     </div>
   </section>
@@ -188,7 +190,7 @@ const Section6FinalCTA: React.FC = () => (
       
       <div className="flex flex-col items-center gap-6">
         <button 
-          onClick={() => window.open('#', '_blank')}
+          onClick={() => window.open(WAITLIST_URL, '_blank')}
           className="group px-12 py-5 bg-gradient-to-r from-blue-600 to-cyan-500 text-white font-bold rounded-2xl flex items-center gap-3 transition-all hover:shadow-[0_0_30px_rgba(37,99,235,0.4)] hover:scale-105"
         >
           Join Waitlist
