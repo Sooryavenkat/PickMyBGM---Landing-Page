@@ -9,7 +9,8 @@ import {
   DollarSign, 
   ArrowRight,
   ChevronRight,
-  AlertCircle
+  AlertCircle,
+  Music2
 } from 'lucide-react';
 
 /**
@@ -44,22 +45,32 @@ const Section1Hero: React.FC = () => (
         The first legal way to use <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-cyan-400">movie songs</span> in YouTube & Instagram.
       </h1>
       
-      <h2 className="text-lg md:text-xl text-gray-400 mb-10 max-w-4xl mx-auto leading-relaxed font-light">
+      <h2 className="text-lg md:text-xl text-gray-400 mb-6 max-w-4xl mx-auto leading-relaxed font-light">
         Get instant copyright clearance for the biggest Tamil, Telugu, Malayalam, kannada & Hindi hits. The ultimate safety pass for YouTube Ad Monetization and Instagram business growth.
       </h2>
 
-      <div className="flex flex-col md:flex-row items-center justify-center gap-6 md:gap-12 mb-12">
+      <h3 className="text-base md:text-lg text-blue-300/80 mb-10 max-w-3xl mx-auto leading-relaxed font-medium italic">
+        Creators, remember in late 2000s? We had "caller tunes" to personalize tring-tring dialler tone? In 2025, we have "creator tunes" to sync cinema music to your content. Same music, same micro-payment model, but for the video era.
+      </h3>
+
+      <div className="flex flex-col md:flex-row items-center justify-center gap-6 md:gap-10 mb-12">
         <div className="flex items-center gap-3 text-gray-300">
           <div className="w-10 h-10 rounded-lg bg-red-600/10 flex items-center justify-center text-red-500">
-            <Youtube size={24} />
+            <Youtube size={22} />
           </div>
           <span className="font-medium">No Copyright Strikes.</span>
         </div>
         <div className="flex items-center gap-3 text-gray-300">
           <div className="w-10 h-10 rounded-lg bg-pink-600/10 flex items-center justify-center text-pink-500">
-            <Instagram size={24} />
+            <Instagram size={22} />
           </div>
           <span className="font-medium">No Audio blocks on Instagram.</span>
+        </div>
+        <div className="flex items-center gap-3 text-gray-300">
+          <div className="w-10 h-10 rounded-lg bg-cyan-600/10 flex items-center justify-center text-cyan-500">
+            <Music2 size={22} />
+          </div>
+          <span className="font-medium">No More Royalty Free Music.</span>
         </div>
       </div>
 
@@ -126,10 +137,10 @@ const Section4Solution: React.FC = () => (
         <ShieldCheck size={32} />
       </div>
       <h2 className="text-3xl md:text-5xl font-bold text-white mb-8 leading-tight">
-        PickMyBGM is a “Sync Music Licensing Marketplace” integrated directly with YouTube’s Content ID & Instagram’s rights Manager.
+        CreatorTunes is a “Sync Music Licensing Platform ” integrated directly with YouTube’s Content ID & Instagram’s rights Manager.
       </h2>
       <p className="text-xl text-gray-400 mb-10 leading-relaxed font-light">
-        Content creator & Instagram brands buy a song license for a small on-time fee, our system automatically clears copyright claims on their video - eliminating the risk of copyright strikes or unmuting the original audio, thus enabling monetization on the video.
+        Content creator & Instagram brands buy a song license for a small one-time fee or subscription fee, our system automatically clears copyright claims on their video - eliminating the risk of copyright strikes or unmuting the original audio, thus enabling monetization & reach on the video.
       </p>
       <div className="inline-block px-6 py-4 rounded-2xl bg-white/5 border border-white/10 text-cyan-400 font-medium tracking-wide">
         Note - Think it like a <span className="text-white">“NoBroker”</span> for content creators & Instagram brands.
@@ -171,7 +182,7 @@ const Section5ValueProp: React.FC = () => (
           </div>
           <h3 className="text-2xl font-bold text-white mb-4">Pay Small, Earn Big.</h3>
           <p className="text-gray-400 leading-relaxed font-light">
-            A transparent, one-time fee structure (depends upon subscriber count & views) that grants 100% of the ad revenue your video generates, even if it goes viral (without complex revenue-sharing agreements).
+            A transparent, one-time fee structure or subscription fee (depends upon subscriber count & views) that grants 100% of the ad revenue your video generates, even if it goes viral (without complex revenue-sharing agreements).
           </p>
         </div>
       </div>
