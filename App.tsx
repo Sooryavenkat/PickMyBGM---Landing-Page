@@ -24,7 +24,7 @@ const Header: React.FC = () => (
   <header className="fixed top-0 left-0 w-full z-50 glass border-b border-white/5 py-4 px-6 md:px-12">
     <div className="max-w-7xl mx-auto flex justify-between items-center">
       <div className="brand-font text-2xl font-bold tracking-tight text-white">
-        PickMyBGM
+        CreatorTunes
       </div>
     </div>
   </header>
@@ -46,11 +46,11 @@ const Section1Hero: React.FC = () => (
       </h1>
       
       <h2 className="text-lg md:text-xl text-gray-400 mb-6 max-w-4xl mx-auto leading-relaxed font-light">
-        Get instant copyright clearance for the biggest Tamil, Telugu, Malayalam, kannada & Hindi hits. The ultimate safety pass for YouTube Ad Monetization and Instagram business growth.
+        Get instant copyright clearance for the biggest Tamil, Telugu, Malayalam, Kannada & Hindi hits. The ultimate safety pass for YouTube Ad Monetization and Instagram business growth.
       </h2>
 
       <h3 className="text-base md:text-lg text-blue-300/80 mb-10 max-w-3xl mx-auto leading-relaxed font-medium italic">
-        Creators, remember in late 2000s? We had "caller tunes" to personalize tring-tring dialler tone? In 2025, we have "creator tunes" to sync cinema music to your content. Same music, same micro-payment model, but for the video era.
+        Creators, remember in late 2000s? we had "caller tunes" to personalize tring-tring dialler tone ? In 2025, we have "creator tunes" to sync cinema music to your content. Same music, same micro-payment model, but for the video era.
       </h3>
 
       <div className="flex flex-col md:flex-row items-center justify-center gap-6 md:gap-10 mb-12">
@@ -220,10 +220,10 @@ const Footer: React.FC = () => (
   <footer className="py-12 px-6 md:px-12 bg-black border-t border-white/5">
     <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center gap-8">
       <div className="brand-font text-xl font-bold tracking-tight text-white/80">
-        PickMyBGM
+        CreatorTunes
       </div>
       <div className="text-gray-500 text-sm">
-        © {new Date().getFullYear()} PickMyBGM. All rights reserved.
+        © {new Date().getFullYear()} CreatorTunes. All rights reserved.
       </div>
     </div>
   </footer>
