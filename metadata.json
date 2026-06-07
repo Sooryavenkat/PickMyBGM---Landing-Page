@@ -1,5 +1,6 @@
 {
   "name": "CreatorTunes - Landing Page",
   "description": "A sophisticated, Tech-Forward landing page for CreatorTunes, a sync music licensing marketplace that allows creators to legally use movie songs on YouTube and Instagram without copyright strikes.",
-  "requestFramePermissions": []
+  "requestFramePermissions": [],
+  "majorCapabilities": []
 }

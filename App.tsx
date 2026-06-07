@@ -38,22 +38,14 @@ const Section1Hero: React.FC = () => (
 
     <div className="max-w-5xl mx-auto text-center z-10">
       <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-blue-500/10 border border-blue-500/20 text-blue-400 text-sm font-medium mb-6 animate-pulse">
-        <Zap size={14} /> Bridging the Licensing Gap between Music Labels & Content Creators.
+        <Zap size={14} /> Hey Content Creators & Digital-First Brands.
       </div>
       
       <h1 className="text-4xl md:text-7xl font-bold text-white mb-6 leading-tight tracking-tight">
         The first legal way to use <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-cyan-400">movie songs</span> in YouTube & Instagram.
       </h1>
-      
-      <h2 className="text-lg md:text-xl text-gray-400 mb-6 max-w-4xl mx-auto leading-relaxed font-light">
-        Get instant copyright clearance for the biggest Tamil, Telugu, Malayalam, Kannada & Hindi hits. The ultimate safety pass for YouTube Ad Monetization and Instagram business growth.
-      </h2>
 
-      <h3 className="text-base md:text-lg text-blue-300/80 mb-10 max-w-3xl mx-auto leading-relaxed font-medium italic">
-        Creators, remember in late 2000s? we had "caller tunes" to personalize tring-tring dialler tone ? In 2025, we have "creator tunes" to sync cinema music to your content. Same music, same micro-payment model, but for the video era.
-      </h3>
-
-      <div className="flex flex-col md:flex-row items-center justify-center gap-6 md:gap-10 mb-12">
+      <div className="flex flex-col md:flex-row items-center justify-center gap-6 md:gap-10 mb-8">
         <div className="flex items-center gap-3 text-gray-300">
           <div className="w-10 h-10 rounded-lg bg-red-600/10 flex items-center justify-center text-red-500">
             <Youtube size={22} />
@@ -73,6 +65,10 @@ const Section1Hero: React.FC = () => (
           <span className="font-medium">No More Royalty Free Music.</span>
         </div>
       </div>
+      
+      <h2 className="text-lg md:text-xl text-gray-400 mb-10 max-w-4xl mx-auto leading-relaxed font-light">
+        Get instant copyright clearance for the biggest Tamil, Telugu, Malayalam, Kannada & Hindi hits. The ultimate safety pass for YouTube Ad Monetization and Instagram business growth.
+      </h2>
 
       <div className="flex flex-col items-center gap-4">
         <button 
@@ -137,7 +133,7 @@ const Section4Solution: React.FC = () => (
         <ShieldCheck size={32} />
       </div>
       <h2 className="text-3xl md:text-5xl font-bold text-white mb-8 leading-tight">
-        CreatorTunes is a “Sync Music Licensing Platform ” integrated directly with YouTube’s Content ID & Instagram’s rights Manager.
+        CreatorTunes is a “Sync Music Licensing Platform” integrated directly with YouTube’s Content ID & Instagram’s rights Manager.
       </h2>
       <p className="text-xl text-gray-400 mb-10 leading-relaxed font-light">
         Content creator & Instagram brands buy a song license for a small one-time fee or subscription fee, our system automatically clears copyright claims on their video - eliminating the risk of copyright strikes or unmuting the original audio, thus enabling monetization & reach on the video.
