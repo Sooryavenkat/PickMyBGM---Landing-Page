@@ -133,7 +133,7 @@ const Section4Solution: React.FC = () => (
         <ShieldCheck size={32} />
       </div>
       <h2 className="text-3xl md:text-5xl font-bold text-white mb-8 leading-tight">
-        CreatorTunes is a “Sync Music Licensing Platform” integrated directly with YouTube’s Content ID & Instagram’s rights Manager.
+        CreatorTunes is a “Sync Music Licensing Marketplace” integrated directly with YouTube’s Content ID & Instagram’s rights Manager.
       </h2>
       <p className="text-xl text-gray-400 mb-10 leading-relaxed font-light">
         Content creator & Instagram brands buy a song license for a small one-time fee or subscription fee, our system automatically clears copyright claims on their video - eliminating the risk of copyright strikes or unmuting the original audio, thus enabling monetization & reach on the video.
